@@ -1,0 +1,2115 @@
+[
+  {
+    "schemaVersion": "1.0",
+    "runId": "task-a-normal-seed-0000",
+    "dataSource": "mock",
+    "task": {
+      "id": "task-a",
+      "name": "抓取并放置目标物体",
+      "suite": "libero_object",
+      "taskIndex": 0,
+      "instruction": "Pick up the target object and place it in the container."
+    },
+    "condition": {
+      "type": "normal",
+      "perturbation": null
+    },
+    "seed": 0,
+    "models": {
+      "policy": "mock-policy-v1",
+      "diagnoser": "mock-vlm-v1"
+    },
+    "result": {
+      "status": "success",
+      "success": true,
+      "terminationReason": "environment_success",
+      "executedSteps": 220,
+      "maxSteps": 500,
+      "durationSeconds": 34.5,
+      "averageInferenceMs": null
+    },
+    "artifacts": {
+      "videoUrl": null,
+      "startFrameUrl": null,
+      "middleFrameUrl": null,
+      "endFrameUrl": null
+    },
+    "diagnosis": {
+      "targetVisible": true,
+      "targetPosition": "center",
+      "taskStage": "completed",
+      "suspectedFailureStage": null,
+      "observations": [
+        "模拟诊断：目标操作在结束画面中已完成。"
+      ],
+      "needsHumanReview": false
+    },
+    "humanReview": {
+      "reviewed": false,
+      "failureCategory": null,
+      "comment": null
+    },
+    "createdAt": "2026-11-24T10:00:00Z"
+  },
+  {
+    "schemaVersion": "1.0",
+    "runId": "task-a-normal-seed-0001",
+    "dataSource": "mock",
+    "task": {
+      "id": "task-a",
+      "name": "抓取并放置目标物体",
+      "suite": "libero_object",
+      "taskIndex": 0,
+      "instruction": "Pick up the target object and place it in the container."
+    },
+    "condition": {
+      "type": "normal",
+      "perturbation": null
+    },
+    "seed": 1,
+    "models": {
+      "policy": "mock-policy-v1",
+      "diagnoser": "mock-vlm-v1"
+    },
+    "result": {
+      "status": "success",
+      "success": true,
+      "terminationReason": "environment_success",
+      "executedSteps": 237,
+      "maxSteps": 500,
+      "durationSeconds": 37.2,
+      "averageInferenceMs": null
+    },
+    "artifacts": {
+      "videoUrl": null,
+      "startFrameUrl": null,
+      "middleFrameUrl": null,
+      "endFrameUrl": null
+    },
+    "diagnosis": {
+      "targetVisible": true,
+      "targetPosition": "center",
+      "taskStage": "completed",
+      "suspectedFailureStage": null,
+      "observations": [
+        "模拟诊断：目标操作在结束画面中已完成。"
+      ],
+      "needsHumanReview": false
+    },
+    "humanReview": {
+      "reviewed": false,
+      "failureCategory": null,
+      "comment": null
+    },
+    "createdAt": "2026-11-24T10:01:00Z"
+  },
+  {
+    "schemaVersion": "1.0",
+    "runId": "task-a-normal-seed-0002",
+    "dataSource": "mock",
+    "task": {
+      "id": "task-a",
+      "name": "抓取并放置目标物体",
+      "suite": "libero_object",
+      "taskIndex": 0,
+      "instruction": "Pick up the target object and place it in the container."
+    },
+    "condition": {
+      "type": "normal",
+      "perturbation": null
+    },
+    "seed": 2,
+    "models": {
+      "policy": "mock-policy-v1",
+      "diagnoser": "mock-vlm-v1"
+    },
+    "result": {
+      "status": "success",
+      "success": true,
+      "terminationReason": "environment_success",
+      "executedSteps": 254,
+      "maxSteps": 500,
+      "durationSeconds": 39.89,
+      "averageInferenceMs": null
+    },
+    "artifacts": {
+      "videoUrl": null,
+      "startFrameUrl": null,
+      "middleFrameUrl": null,
+      "endFrameUrl": null
+    },
+    "diagnosis": {
+      "targetVisible": true,
+      "targetPosition": "center",
+      "taskStage": "completed",
+      "suspectedFailureStage": null,
+      "observations": [
+        "模拟诊断：目标操作在结束画面中已完成。"
+      ],
+      "needsHumanReview": false
+    },
+    "humanReview": {
+      "reviewed": false,
+      "failureCategory": null,
+      "comment": null
+    },
+    "createdAt": "2026-11-24T10:02:00Z"
+  },
+  {
+    "schemaVersion": "1.0",
+    "runId": "task-a-normal-seed-0003",
+    "dataSource": "mock",
+    "task": {
+      "id": "task-a",
+      "name": "抓取并放置目标物体",
+      "suite": "libero_object",
+      "taskIndex": 0,
+      "instruction": "Pick up the target object and place it in the container."
+    },
+    "condition": {
+      "type": "normal",
+      "perturbation": null
+    },
+    "seed": 3,
+    "models": {
+      "policy": "mock-policy-v1",
+      "diagnoser": "mock-vlm-v1"
+    },
+    "result": {
+      "status": "success",
+      "success": true,
+      "terminationReason": "environment_success",
+      "executedSteps": 271,
+      "maxSteps": 500,
+      "durationSeconds": 42.59,
+      "averageInferenceMs": null
+    },
+    "artifacts": {
+      "videoUrl": null,
+      "startFrameUrl": null,
+      "middleFrameUrl": null,
+      "endFrameUrl": null
+    },
+    "diagnosis": {
+      "targetVisible": true,
+      "targetPosition": "center",
+      "taskStage": "completed",
+      "suspectedFailureStage": null,
+      "observations": [
+        "模拟诊断：目标操作在结束画面中已完成。"
+      ],
+      "needsHumanReview": false
+    },
+    "humanReview": {
+      "reviewed": false,
+      "failureCategory": null,
+      "comment": null
+    },
+    "createdAt": "2026-11-24T10:03:00Z"
+  },
+  {
+    "schemaVersion": "1.0",
+    "runId": "task-a-normal-seed-0004",
+    "dataSource": "mock",
+    "task": {
+      "id": "task-a",
+      "name": "抓取并放置目标物体",
+      "suite": "libero_object",
+      "taskIndex": 0,
+      "instruction": "Pick up the target object and place it in the container."
+    },
+    "condition": {
+      "type": "normal",
+      "perturbation": null
+    },
+    "seed": 4,
+    "models": {
+      "policy": "mock-policy-v1",
+      "diagnoser": "mock-vlm-v1"
+    },
+    "result": {
+      "status": "success",
+      "success": true,
+      "terminationReason": "environment_success",
+      "executedSteps": 288,
+      "maxSteps": 500,
+      "durationSeconds": 43.68,
+      "averageInferenceMs": null
+    },
+    "artifacts": {
+      "videoUrl": null,
+      "startFrameUrl": null,
+      "middleFrameUrl": null,
+      "endFrameUrl": null
+    },
+    "diagnosis": {
+      "targetVisible": true,
+      "targetPosition": "center",
+      "taskStage": "completed",
+      "suspectedFailureStage": null,
+      "observations": [
+        "模拟诊断：目标操作在结束画面中已完成。"
+      ],
+      "needsHumanReview": false
+    },
+    "humanReview": {
+      "reviewed": false,
+      "failureCategory": null,
+      "comment": null
+    },
+    "createdAt": "2026-11-24T10:04:00Z"
+  },
+  {
+    "schemaVersion": "1.0",
+    "runId": "task-a-normal-seed-0005",
+    "dataSource": "mock",
+    "task": {
+      "id": "task-a",
+      "name": "抓取并放置目标物体",
+      "suite": "libero_object",
+      "taskIndex": 0,
+      "instruction": "Pick up the target object and place it in the container."
+    },
+    "condition": {
+      "type": "normal",
+      "perturbation": null
+    },
+    "seed": 5,
+    "models": {
+      "policy": "mock-policy-v1",
+      "diagnoser": "mock-vlm-v1"
+    },
+    "result": {
+      "status": "success",
+      "success": true,
+      "terminationReason": "environment_success",
+      "executedSteps": 305,
+      "maxSteps": 500,
+      "durationSeconds": 46.38,
+      "averageInferenceMs": null
+    },
+    "artifacts": {
+      "videoUrl": null,
+      "startFrameUrl": null,
+      "middleFrameUrl": null,
+      "endFrameUrl": null
+    },
+    "diagnosis": {
+      "targetVisible": true,
+      "targetPosition": "center",
+      "taskStage": "completed",
+      "suspectedFailureStage": null,
+      "observations": [
+        "模拟诊断：目标操作在结束画面中已完成。"
+      ],
+      "needsHumanReview": false
+    },
+    "humanReview": {
+      "reviewed": false,
+      "failureCategory": null,
+      "comment": null
+    },
+    "createdAt": "2026-11-24T10:05:00Z"
+  },
+  {
+    "schemaVersion": "1.0",
+    "runId": "task-a-normal-seed-0006",
+    "dataSource": "mock",
+    "task": {
+      "id": "task-a",
+      "name": "抓取并放置目标物体",
+      "suite": "libero_object",
+      "taskIndex": 0,
+      "instruction": "Pick up the target object and place it in the container."
+    },
+    "condition": {
+      "type": "normal",
+      "perturbation": null
+    },
+    "seed": 6,
+    "models": {
+      "policy": "mock-policy-v1",
+      "diagnoser": "mock-vlm-v1"
+    },
+    "result": {
+      "status": "success",
+      "success": true,
+      "terminationReason": "environment_success",
+      "executedSteps": 322,
+      "maxSteps": 500,
+      "durationSeconds": 49.07,
+      "averageInferenceMs": null
+    },
+    "artifacts": {
+      "videoUrl": null,
+      "startFrameUrl": null,
+      "middleFrameUrl": null,
+      "endFrameUrl": null
+    },
+    "diagnosis": {
+      "targetVisible": true,
+      "targetPosition": "center",
+      "taskStage": "completed",
+      "suspectedFailureStage": null,
+      "observations": [
+        "模拟诊断：目标操作在结束画面中已完成。"
+      ],
+      "needsHumanReview": false
+    },
+    "humanReview": {
+      "reviewed": false,
+      "failureCategory": null,
+      "comment": null
+    },
+    "createdAt": "2026-11-24T10:06:00Z"
+  },
+  {
+    "schemaVersion": "1.0",
+    "runId": "task-a-normal-seed-0007",
+    "dataSource": "mock",
+    "task": {
+      "id": "task-a",
+      "name": "抓取并放置目标物体",
+      "suite": "libero_object",
+      "taskIndex": 0,
+      "instruction": "Pick up the target object and place it in the container."
+    },
+    "condition": {
+      "type": "normal",
+      "perturbation": null
+    },
+    "seed": 7,
+    "models": {
+      "policy": "mock-policy-v1",
+      "diagnoser": "mock-vlm-v1"
+    },
+    "result": {
+      "status": "failed",
+      "success": false,
+      "terminationReason": "max_steps_reached",
+      "executedSteps": 500,
+      "maxSteps": 500,
+      "durationSeconds": 73.5,
+      "averageInferenceMs": null
+    },
+    "artifacts": {
+      "videoUrl": null,
+      "startFrameUrl": null,
+      "middleFrameUrl": null,
+      "endFrameUrl": null
+    },
+    "diagnosis": {
+      "targetVisible": true,
+      "targetPosition": "center-left",
+      "taskStage": "grasp",
+      "suspectedFailureStage": "grasp",
+      "observations": [
+        "模拟复核：夹爪到达目标附近但未稳定抓取。"
+      ],
+      "needsHumanReview": true
+    },
+    "humanReview": {
+      "reviewed": true,
+      "failureCategory": "grasp",
+      "comment": "模拟复核：夹爪到达目标附近但未稳定抓取。"
+    },
+    "createdAt": "2026-11-24T10:07:00Z"
+  },
+  {
+    "schemaVersion": "1.0",
+    "runId": "task-a-normal-seed-0008",
+    "dataSource": "mock",
+    "task": {
+      "id": "task-a",
+      "name": "抓取并放置目标物体",
+      "suite": "libero_object",
+      "taskIndex": 0,
+      "instruction": "Pick up the target object and place it in the container."
+    },
+    "condition": {
+      "type": "normal",
+      "perturbation": null
+    },
+    "seed": 8,
+    "models": {
+      "policy": "mock-policy-v1",
+      "diagnoser": "mock-vlm-v1"
+    },
+    "result": {
+      "status": "failed",
+      "success": false,
+      "terminationReason": "max_steps_reached",
+      "executedSteps": 500,
+      "maxSteps": 500,
+      "durationSeconds": 72.3,
+      "averageInferenceMs": null
+    },
+    "artifacts": {
+      "videoUrl": null,
+      "startFrameUrl": null,
+      "middleFrameUrl": null,
+      "endFrameUrl": null
+    },
+    "diagnosis": null,
+    "humanReview": {
+      "reviewed": true,
+      "failureCategory": "placement",
+      "comment": "模拟复核：物体未被放入目标区域。"
+    },
+    "createdAt": "2026-11-24T10:08:00Z"
+  },
+  {
+    "schemaVersion": "1.0",
+    "runId": "task-a-normal-seed-0009",
+    "dataSource": "mock",
+    "task": {
+      "id": "task-a",
+      "name": "抓取并放置目标物体",
+      "suite": "libero_object",
+      "taskIndex": 0,
+      "instruction": "Pick up the target object and place it in the container."
+    },
+    "condition": {
+      "type": "normal",
+      "perturbation": null
+    },
+    "seed": 9,
+    "models": {
+      "policy": "mock-policy-v1",
+      "diagnoser": "mock-vlm-v1"
+    },
+    "result": {
+      "status": "error",
+      "success": false,
+      "terminationReason": "mock_runtime_error",
+      "executedSteps": 84,
+      "maxSteps": 500,
+      "durationSeconds": 16.54,
+      "averageInferenceMs": null
+    },
+    "artifacts": {
+      "videoUrl": null,
+      "startFrameUrl": null,
+      "middleFrameUrl": null,
+      "endFrameUrl": null
+    },
+    "diagnosis": null,
+    "humanReview": {
+      "reviewed": true,
+      "failureCategory": "system_error",
+      "comment": "模拟复核：运行过程发生系统异常。"
+    },
+    "createdAt": "2026-11-24T10:09:00Z"
+  },
+  {
+    "schemaVersion": "1.0",
+    "runId": "task-a-disturbed-seed-0000",
+    "dataSource": "mock",
+    "task": {
+      "id": "task-a",
+      "name": "抓取并放置目标物体",
+      "suite": "libero_object",
+      "taskIndex": 0,
+      "instruction": "Pick up the target object and place it in the container."
+    },
+    "condition": {
+      "type": "disturbed",
+      "perturbation": {
+        "type": "brightness",
+        "factor": 0.7
+      }
+    },
+    "seed": 0,
+    "models": {
+      "policy": "mock-policy-v1",
+      "diagnoser": "mock-vlm-v1"
+    },
+    "result": {
+      "status": "success",
+      "success": true,
+      "terminationReason": "environment_success",
+      "executedSteps": 240,
+      "maxSteps": 500,
+      "durationSeconds": 38.0,
+      "averageInferenceMs": null
+    },
+    "artifacts": {
+      "videoUrl": null,
+      "startFrameUrl": null,
+      "middleFrameUrl": null,
+      "endFrameUrl": null
+    },
+    "diagnosis": {
+      "targetVisible": true,
+      "targetPosition": "center",
+      "taskStage": "completed",
+      "suspectedFailureStage": null,
+      "observations": [
+        "模拟诊断：目标操作在结束画面中已完成。"
+      ],
+      "needsHumanReview": false
+    },
+    "humanReview": {
+      "reviewed": false,
+      "failureCategory": null,
+      "comment": null
+    },
+    "createdAt": "2026-11-24T10:10:00Z"
+  },
+  {
+    "schemaVersion": "1.0",
+    "runId": "task-a-disturbed-seed-0001",
+    "dataSource": "mock",
+    "task": {
+      "id": "task-a",
+      "name": "抓取并放置目标物体",
+      "suite": "libero_object",
+      "taskIndex": 0,
+      "instruction": "Pick up the target object and place it in the container."
+    },
+    "condition": {
+      "type": "disturbed",
+      "perturbation": {
+        "type": "brightness",
+        "factor": 0.7
+      }
+    },
+    "seed": 1,
+    "models": {
+      "policy": "mock-policy-v1",
+      "diagnoser": "mock-vlm-v1"
+    },
+    "result": {
+      "status": "success",
+      "success": true,
+      "terminationReason": "environment_success",
+      "executedSteps": 257,
+      "maxSteps": 500,
+      "durationSeconds": 40.7,
+      "averageInferenceMs": null
+    },
+    "artifacts": {
+      "videoUrl": null,
+      "startFrameUrl": null,
+      "middleFrameUrl": null,
+      "endFrameUrl": null
+    },
+    "diagnosis": {
+      "targetVisible": true,
+      "targetPosition": "center",
+      "taskStage": "completed",
+      "suspectedFailureStage": null,
+      "observations": [
+        "模拟诊断：目标操作在结束画面中已完成。"
+      ],
+      "needsHumanReview": false
+    },
+    "humanReview": {
+      "reviewed": false,
+      "failureCategory": null,
+      "comment": null
+    },
+    "createdAt": "2026-11-24T10:11:00Z"
+  },
+  {
+    "schemaVersion": "1.0",
+    "runId": "task-a-disturbed-seed-0002",
+    "dataSource": "mock",
+    "task": {
+      "id": "task-a",
+      "name": "抓取并放置目标物体",
+      "suite": "libero_object",
+      "taskIndex": 0,
+      "instruction": "Pick up the target object and place it in the container."
+    },
+    "condition": {
+      "type": "disturbed",
+      "perturbation": {
+        "type": "brightness",
+        "factor": 0.7
+      }
+    },
+    "seed": 2,
+    "models": {
+      "policy": "mock-policy-v1",
+      "diagnoser": "mock-vlm-v1"
+    },
+    "result": {
+      "status": "success",
+      "success": true,
+      "terminationReason": "environment_success",
+      "executedSteps": 274,
+      "maxSteps": 500,
+      "durationSeconds": 41.79,
+      "averageInferenceMs": null
+    },
+    "artifacts": {
+      "videoUrl": null,
+      "startFrameUrl": null,
+      "middleFrameUrl": null,
+      "endFrameUrl": null
+    },
+    "diagnosis": {
+      "targetVisible": true,
+      "targetPosition": "center",
+      "taskStage": "completed",
+      "suspectedFailureStage": null,
+      "observations": [
+        "模拟诊断：目标操作在结束画面中已完成。"
+      ],
+      "needsHumanReview": false
+    },
+    "humanReview": {
+      "reviewed": false,
+      "failureCategory": null,
+      "comment": null
+    },
+    "createdAt": "2026-11-24T10:12:00Z"
+  },
+  {
+    "schemaVersion": "1.0",
+    "runId": "task-a-disturbed-seed-0003",
+    "dataSource": "mock",
+    "task": {
+      "id": "task-a",
+      "name": "抓取并放置目标物体",
+      "suite": "libero_object",
+      "taskIndex": 0,
+      "instruction": "Pick up the target object and place it in the container."
+    },
+    "condition": {
+      "type": "disturbed",
+      "perturbation": {
+        "type": "brightness",
+        "factor": 0.7
+      }
+    },
+    "seed": 3,
+    "models": {
+      "policy": "mock-policy-v1",
+      "diagnoser": "mock-vlm-v1"
+    },
+    "result": {
+      "status": "success",
+      "success": true,
+      "terminationReason": "environment_success",
+      "executedSteps": 291,
+      "maxSteps": 500,
+      "durationSeconds": 44.48,
+      "averageInferenceMs": null
+    },
+    "artifacts": {
+      "videoUrl": null,
+      "startFrameUrl": null,
+      "middleFrameUrl": null,
+      "endFrameUrl": null
+    },
+    "diagnosis": {
+      "targetVisible": true,
+      "targetPosition": "center",
+      "taskStage": "completed",
+      "suspectedFailureStage": null,
+      "observations": [
+        "模拟诊断：目标操作在结束画面中已完成。"
+      ],
+      "needsHumanReview": false
+    },
+    "humanReview": {
+      "reviewed": false,
+      "failureCategory": null,
+      "comment": null
+    },
+    "createdAt": "2026-11-24T10:13:00Z"
+  },
+  {
+    "schemaVersion": "1.0",
+    "runId": "task-a-disturbed-seed-0004",
+    "dataSource": "mock",
+    "task": {
+      "id": "task-a",
+      "name": "抓取并放置目标物体",
+      "suite": "libero_object",
+      "taskIndex": 0,
+      "instruction": "Pick up the target object and place it in the container."
+    },
+    "condition": {
+      "type": "disturbed",
+      "perturbation": {
+        "type": "brightness",
+        "factor": 0.7
+      }
+    },
+    "seed": 4,
+    "models": {
+      "policy": "mock-policy-v1",
+      "diagnoser": "mock-vlm-v1"
+    },
+    "result": {
+      "status": "failed",
+      "success": false,
+      "terminationReason": "max_steps_reached",
+      "executedSteps": 500,
+      "maxSteps": 500,
+      "durationSeconds": 73.1,
+      "averageInferenceMs": null
+    },
+    "artifacts": {
+      "videoUrl": null,
+      "startFrameUrl": null,
+      "middleFrameUrl": null,
+      "endFrameUrl": null
+    },
+    "diagnosis": {
+      "targetVisible": false,
+      "targetPosition": "unknown",
+      "taskStage": "unknown",
+      "suspectedFailureStage": "recognition",
+      "observations": [
+        "模拟复核：策略朝错误目标移动。"
+      ],
+      "needsHumanReview": true
+    },
+    "humanReview": {
+      "reviewed": true,
+      "failureCategory": "target_recognition",
+      "comment": "模拟复核：策略朝错误目标移动。"
+    },
+    "createdAt": "2026-11-24T10:14:00Z"
+  },
+  {
+    "schemaVersion": "1.0",
+    "runId": "task-a-disturbed-seed-0005",
+    "dataSource": "mock",
+    "task": {
+      "id": "task-a",
+      "name": "抓取并放置目标物体",
+      "suite": "libero_object",
+      "taskIndex": 0,
+      "instruction": "Pick up the target object and place it in the container."
+    },
+    "condition": {
+      "type": "disturbed",
+      "perturbation": {
+        "type": "brightness",
+        "factor": 0.7
+      }
+    },
+    "seed": 5,
+    "models": {
+      "policy": "mock-policy-v1",
+      "diagnoser": "mock-vlm-v1"
+    },
+    "result": {
+      "status": "failed",
+      "success": false,
+      "terminationReason": "max_steps_reached",
+      "executedSteps": 500,
+      "maxSteps": 500,
+      "durationSeconds": 73.5,
+      "averageInferenceMs": null
+    },
+    "artifacts": {
+      "videoUrl": null,
+      "startFrameUrl": null,
+      "middleFrameUrl": null,
+      "endFrameUrl": null
+    },
+    "diagnosis": {
+      "targetVisible": true,
+      "targetPosition": "center-left",
+      "taskStage": "approach",
+      "suspectedFailureStage": "approach",
+      "observations": [
+        "模拟复核：末端执行器与目标位置存在偏差。"
+      ],
+      "needsHumanReview": true
+    },
+    "humanReview": {
+      "reviewed": true,
+      "failureCategory": "localization",
+      "comment": "模拟复核：末端执行器与目标位置存在偏差。"
+    },
+    "createdAt": "2026-11-24T10:15:00Z"
+  },
+  {
+    "schemaVersion": "1.0",
+    "runId": "task-a-disturbed-seed-0006",
+    "dataSource": "mock",
+    "task": {
+      "id": "task-a",
+      "name": "抓取并放置目标物体",
+      "suite": "libero_object",
+      "taskIndex": 0,
+      "instruction": "Pick up the target object and place it in the container."
+    },
+    "condition": {
+      "type": "disturbed",
+      "perturbation": {
+        "type": "brightness",
+        "factor": 0.7
+      }
+    },
+    "seed": 6,
+    "models": {
+      "policy": "mock-policy-v1",
+      "diagnoser": "mock-vlm-v1"
+    },
+    "result": {
+      "status": "failed",
+      "success": false,
+      "terminationReason": "max_steps_reached",
+      "executedSteps": 500,
+      "maxSteps": 500,
+      "durationSeconds": 72.3,
+      "averageInferenceMs": null
+    },
+    "artifacts": {
+      "videoUrl": null,
+      "startFrameUrl": null,
+      "middleFrameUrl": null,
+      "endFrameUrl": null
+    },
+    "diagnosis": {
+      "targetVisible": true,
+      "targetPosition": "center-left",
+      "taskStage": "grasp",
+      "suspectedFailureStage": "grasp",
+      "observations": [
+        "模拟复核：夹爪到达目标附近但未稳定抓取。"
+      ],
+      "needsHumanReview": true
+    },
+    "humanReview": {
+      "reviewed": true,
+      "failureCategory": "grasp",
+      "comment": "模拟复核：夹爪到达目标附近但未稳定抓取。"
+    },
+    "createdAt": "2026-11-24T10:16:00Z"
+  },
+  {
+    "schemaVersion": "1.0",
+    "runId": "task-a-disturbed-seed-0007",
+    "dataSource": "mock",
+    "task": {
+      "id": "task-a",
+      "name": "抓取并放置目标物体",
+      "suite": "libero_object",
+      "taskIndex": 0,
+      "instruction": "Pick up the target object and place it in the container."
+    },
+    "condition": {
+      "type": "disturbed",
+      "perturbation": {
+        "type": "brightness",
+        "factor": 0.7
+      }
+    },
+    "seed": 7,
+    "models": {
+      "policy": "mock-policy-v1",
+      "diagnoser": "mock-vlm-v1"
+    },
+    "result": {
+      "status": "failed",
+      "success": false,
+      "terminationReason": "max_steps_reached",
+      "executedSteps": 500,
+      "maxSteps": 500,
+      "durationSeconds": 72.7,
+      "averageInferenceMs": null
+    },
+    "artifacts": {
+      "videoUrl": null,
+      "startFrameUrl": null,
+      "middleFrameUrl": null,
+      "endFrameUrl": null
+    },
+    "diagnosis": {
+      "targetVisible": true,
+      "targetPosition": "center-left",
+      "taskStage": "placement",
+      "suspectedFailureStage": "placement",
+      "observations": [
+        "模拟复核：物体未被放入目标区域。"
+      ],
+      "needsHumanReview": true
+    },
+    "humanReview": {
+      "reviewed": true,
+      "failureCategory": "placement",
+      "comment": "模拟复核：物体未被放入目标区域。"
+    },
+    "createdAt": "2026-11-24T10:17:00Z"
+  },
+  {
+    "schemaVersion": "1.0",
+    "runId": "task-a-disturbed-seed-0008",
+    "dataSource": "mock",
+    "task": {
+      "id": "task-a",
+      "name": "抓取并放置目标物体",
+      "suite": "libero_object",
+      "taskIndex": 0,
+      "instruction": "Pick up the target object and place it in the container."
+    },
+    "condition": {
+      "type": "disturbed",
+      "perturbation": {
+        "type": "brightness",
+        "factor": 0.7
+      }
+    },
+    "seed": 8,
+    "models": {
+      "policy": "mock-policy-v1",
+      "diagnoser": "mock-vlm-v1"
+    },
+    "result": {
+      "status": "failed",
+      "success": false,
+      "terminationReason": "max_steps_reached",
+      "executedSteps": 500,
+      "maxSteps": 500,
+      "durationSeconds": 73.1,
+      "averageInferenceMs": null
+    },
+    "artifacts": {
+      "videoUrl": null,
+      "startFrameUrl": null,
+      "middleFrameUrl": null,
+      "endFrameUrl": null
+    },
+    "diagnosis": {
+      "targetVisible": true,
+      "targetPosition": "center-left",
+      "taskStage": "unknown",
+      "suspectedFailureStage": "recognition",
+      "observations": [
+        "模拟复核：亮度扰动后目标判断发生退化。"
+      ],
+      "needsHumanReview": true
+    },
+    "humanReview": {
+      "reviewed": true,
+      "failureCategory": "perturbation",
+      "comment": "模拟复核：亮度扰动后目标判断发生退化。"
+    },
+    "createdAt": "2026-11-24T10:18:00Z"
+  },
+  {
+    "schemaVersion": "1.0",
+    "runId": "task-a-disturbed-seed-0009",
+    "dataSource": "mock",
+    "task": {
+      "id": "task-a",
+      "name": "抓取并放置目标物体",
+      "suite": "libero_object",
+      "taskIndex": 0,
+      "instruction": "Pick up the target object and place it in the container."
+    },
+    "condition": {
+      "type": "disturbed",
+      "perturbation": {
+        "type": "brightness",
+        "factor": 0.7
+      }
+    },
+    "seed": 9,
+    "models": {
+      "policy": "mock-policy-v1",
+      "diagnoser": "mock-vlm-v1"
+    },
+    "result": {
+      "status": "interrupted",
+      "success": false,
+      "terminationReason": "manual_interruption",
+      "executedSteps": 183,
+      "maxSteps": 500,
+      "durationSeconds": 30.71,
+      "averageInferenceMs": null
+    },
+    "artifacts": {
+      "videoUrl": null,
+      "startFrameUrl": null,
+      "middleFrameUrl": null,
+      "endFrameUrl": null
+    },
+    "diagnosis": {
+      "targetVisible": true,
+      "targetPosition": "unknown",
+      "taskStage": "unknown",
+      "suspectedFailureStage": "unknown",
+      "observations": [
+        "模拟复核：运行被中断，现有证据不足。"
+      ],
+      "needsHumanReview": true
+    },
+    "humanReview": {
+      "reviewed": true,
+      "failureCategory": "unknown",
+      "comment": "模拟复核：运行被中断，现有证据不足。"
+    },
+    "createdAt": "2026-11-24T10:19:00Z"
+  },
+  {
+    "schemaVersion": "1.0",
+    "runId": "task-b-normal-seed-0000",
+    "dataSource": "mock",
+    "task": {
+      "id": "task-b",
+      "name": "操作场景中的目标部件",
+      "suite": "libero_spatial",
+      "taskIndex": 0,
+      "instruction": "Interact with the specified part of the scene."
+    },
+    "condition": {
+      "type": "normal",
+      "perturbation": null
+    },
+    "seed": 0,
+    "models": {
+      "policy": "mock-policy-v1",
+      "diagnoser": "mock-vlm-v1"
+    },
+    "result": {
+      "status": "success",
+      "success": true,
+      "terminationReason": "environment_success",
+      "executedSteps": 260,
+      "maxSteps": 500,
+      "durationSeconds": 39.9,
+      "averageInferenceMs": null
+    },
+    "artifacts": {
+      "videoUrl": null,
+      "startFrameUrl": null,
+      "middleFrameUrl": null,
+      "endFrameUrl": null
+    },
+    "diagnosis": {
+      "targetVisible": true,
+      "targetPosition": "center",
+      "taskStage": "completed",
+      "suspectedFailureStage": null,
+      "observations": [
+        "模拟诊断：目标操作在结束画面中已完成。"
+      ],
+      "needsHumanReview": false
+    },
+    "humanReview": {
+      "reviewed": false,
+      "failureCategory": null,
+      "comment": null
+    },
+    "createdAt": "2026-11-24T10:20:00Z"
+  },
+  {
+    "schemaVersion": "1.0",
+    "runId": "task-b-normal-seed-0001",
+    "dataSource": "mock",
+    "task": {
+      "id": "task-b",
+      "name": "操作场景中的目标部件",
+      "suite": "libero_spatial",
+      "taskIndex": 0,
+      "instruction": "Interact with the specified part of the scene."
+    },
+    "condition": {
+      "type": "normal",
+      "perturbation": null
+    },
+    "seed": 1,
+    "models": {
+      "policy": "mock-policy-v1",
+      "diagnoser": "mock-vlm-v1"
+    },
+    "result": {
+      "status": "success",
+      "success": true,
+      "terminationReason": "environment_success",
+      "executedSteps": 277,
+      "maxSteps": 500,
+      "durationSeconds": 42.59,
+      "averageInferenceMs": null
+    },
+    "artifacts": {
+      "videoUrl": null,
+      "startFrameUrl": null,
+      "middleFrameUrl": null,
+      "endFrameUrl": null
+    },
+    "diagnosis": {
+      "targetVisible": true,
+      "targetPosition": "center",
+      "taskStage": "completed",
+      "suspectedFailureStage": null,
+      "observations": [
+        "模拟诊断：目标操作在结束画面中已完成。"
+      ],
+      "needsHumanReview": false
+    },
+    "humanReview": {
+      "reviewed": false,
+      "failureCategory": null,
+      "comment": null
+    },
+    "createdAt": "2026-11-24T10:21:00Z"
+  },
+  {
+    "schemaVersion": "1.0",
+    "runId": "task-b-normal-seed-0002",
+    "dataSource": "mock",
+    "task": {
+      "id": "task-b",
+      "name": "操作场景中的目标部件",
+      "suite": "libero_spatial",
+      "taskIndex": 0,
+      "instruction": "Interact with the specified part of the scene."
+    },
+    "condition": {
+      "type": "normal",
+      "perturbation": null
+    },
+    "seed": 2,
+    "models": {
+      "policy": "mock-policy-v1",
+      "diagnoser": "mock-vlm-v1"
+    },
+    "result": {
+      "status": "success",
+      "success": true,
+      "terminationReason": "environment_success",
+      "executedSteps": 294,
+      "maxSteps": 500,
+      "durationSeconds": 45.29,
+      "averageInferenceMs": null
+    },
+    "artifacts": {
+      "videoUrl": null,
+      "startFrameUrl": null,
+      "middleFrameUrl": null,
+      "endFrameUrl": null
+    },
+    "diagnosis": {
+      "targetVisible": true,
+      "targetPosition": "center",
+      "taskStage": "completed",
+      "suspectedFailureStage": null,
+      "observations": [
+        "模拟诊断：目标操作在结束画面中已完成。"
+      ],
+      "needsHumanReview": false
+    },
+    "humanReview": {
+      "reviewed": false,
+      "failureCategory": null,
+      "comment": null
+    },
+    "createdAt": "2026-11-24T10:22:00Z"
+  },
+  {
+    "schemaVersion": "1.0",
+    "runId": "task-b-normal-seed-0003",
+    "dataSource": "mock",
+    "task": {
+      "id": "task-b",
+      "name": "操作场景中的目标部件",
+      "suite": "libero_spatial",
+      "taskIndex": 0,
+      "instruction": "Interact with the specified part of the scene."
+    },
+    "condition": {
+      "type": "normal",
+      "perturbation": null
+    },
+    "seed": 3,
+    "models": {
+      "policy": "mock-policy-v1",
+      "diagnoser": "mock-vlm-v1"
+    },
+    "result": {
+      "status": "success",
+      "success": true,
+      "terminationReason": "environment_success",
+      "executedSteps": 311,
+      "maxSteps": 500,
+      "durationSeconds": 47.98,
+      "averageInferenceMs": null
+    },
+    "artifacts": {
+      "videoUrl": null,
+      "startFrameUrl": null,
+      "middleFrameUrl": null,
+      "endFrameUrl": null
+    },
+    "diagnosis": {
+      "targetVisible": true,
+      "targetPosition": "center",
+      "taskStage": "completed",
+      "suspectedFailureStage": null,
+      "observations": [
+        "模拟诊断：目标操作在结束画面中已完成。"
+      ],
+      "needsHumanReview": false
+    },
+    "humanReview": {
+      "reviewed": false,
+      "failureCategory": null,
+      "comment": null
+    },
+    "createdAt": "2026-11-24T10:23:00Z"
+  },
+  {
+    "schemaVersion": "1.0",
+    "runId": "task-b-normal-seed-0004",
+    "dataSource": "mock",
+    "task": {
+      "id": "task-b",
+      "name": "操作场景中的目标部件",
+      "suite": "libero_spatial",
+      "taskIndex": 0,
+      "instruction": "Interact with the specified part of the scene."
+    },
+    "condition": {
+      "type": "normal",
+      "perturbation": null
+    },
+    "seed": 4,
+    "models": {
+      "policy": "mock-policy-v1",
+      "diagnoser": "mock-vlm-v1"
+    },
+    "result": {
+      "status": "success",
+      "success": true,
+      "terminationReason": "environment_success",
+      "executedSteps": 328,
+      "maxSteps": 500,
+      "durationSeconds": 49.08,
+      "averageInferenceMs": null
+    },
+    "artifacts": {
+      "videoUrl": null,
+      "startFrameUrl": null,
+      "middleFrameUrl": null,
+      "endFrameUrl": null
+    },
+    "diagnosis": {
+      "targetVisible": true,
+      "targetPosition": "center",
+      "taskStage": "completed",
+      "suspectedFailureStage": null,
+      "observations": [
+        "模拟诊断：目标操作在结束画面中已完成。"
+      ],
+      "needsHumanReview": false
+    },
+    "humanReview": {
+      "reviewed": false,
+      "failureCategory": null,
+      "comment": null
+    },
+    "createdAt": "2026-11-24T10:24:00Z"
+  },
+  {
+    "schemaVersion": "1.0",
+    "runId": "task-b-normal-seed-0005",
+    "dataSource": "mock",
+    "task": {
+      "id": "task-b",
+      "name": "操作场景中的目标部件",
+      "suite": "libero_spatial",
+      "taskIndex": 0,
+      "instruction": "Interact with the specified part of the scene."
+    },
+    "condition": {
+      "type": "normal",
+      "perturbation": null
+    },
+    "seed": 5,
+    "models": {
+      "policy": "mock-policy-v1",
+      "diagnoser": "mock-vlm-v1"
+    },
+    "result": {
+      "status": "success",
+      "success": true,
+      "terminationReason": "environment_success",
+      "executedSteps": 345,
+      "maxSteps": 500,
+      "durationSeconds": 51.77,
+      "averageInferenceMs": null
+    },
+    "artifacts": {
+      "videoUrl": null,
+      "startFrameUrl": null,
+      "middleFrameUrl": null,
+      "endFrameUrl": null
+    },
+    "diagnosis": {
+      "targetVisible": true,
+      "targetPosition": "center",
+      "taskStage": "completed",
+      "suspectedFailureStage": null,
+      "observations": [
+        "模拟诊断：目标操作在结束画面中已完成。"
+      ],
+      "needsHumanReview": false
+    },
+    "humanReview": {
+      "reviewed": false,
+      "failureCategory": null,
+      "comment": null
+    },
+    "createdAt": "2026-11-24T10:25:00Z"
+  },
+  {
+    "schemaVersion": "1.0",
+    "runId": "task-b-normal-seed-0006",
+    "dataSource": "mock",
+    "task": {
+      "id": "task-b",
+      "name": "操作场景中的目标部件",
+      "suite": "libero_spatial",
+      "taskIndex": 0,
+      "instruction": "Interact with the specified part of the scene."
+    },
+    "condition": {
+      "type": "normal",
+      "perturbation": null
+    },
+    "seed": 6,
+    "models": {
+      "policy": "mock-policy-v1",
+      "diagnoser": "mock-vlm-v1"
+    },
+    "result": {
+      "status": "success",
+      "success": true,
+      "terminationReason": "environment_success",
+      "executedSteps": 362,
+      "maxSteps": 500,
+      "durationSeconds": 54.47,
+      "averageInferenceMs": null
+    },
+    "artifacts": {
+      "videoUrl": null,
+      "startFrameUrl": null,
+      "middleFrameUrl": null,
+      "endFrameUrl": null
+    },
+    "diagnosis": {
+      "targetVisible": true,
+      "targetPosition": "center",
+      "taskStage": "completed",
+      "suspectedFailureStage": null,
+      "observations": [
+        "模拟诊断：目标操作在结束画面中已完成。"
+      ],
+      "needsHumanReview": false
+    },
+    "humanReview": {
+      "reviewed": false,
+      "failureCategory": null,
+      "comment": null
+    },
+    "createdAt": "2026-11-24T10:26:00Z"
+  },
+  {
+    "schemaVersion": "1.0",
+    "runId": "task-b-normal-seed-0007",
+    "dataSource": "mock",
+    "task": {
+      "id": "task-b",
+      "name": "操作场景中的目标部件",
+      "suite": "libero_spatial",
+      "taskIndex": 0,
+      "instruction": "Interact with the specified part of the scene."
+    },
+    "condition": {
+      "type": "normal",
+      "perturbation": null
+    },
+    "seed": 7,
+    "models": {
+      "policy": "mock-policy-v1",
+      "diagnoser": "mock-vlm-v1"
+    },
+    "result": {
+      "status": "success",
+      "success": true,
+      "terminationReason": "environment_success",
+      "executedSteps": 229,
+      "maxSteps": 500,
+      "durationSeconds": 36.92,
+      "averageInferenceMs": null
+    },
+    "artifacts": {
+      "videoUrl": null,
+      "startFrameUrl": null,
+      "middleFrameUrl": null,
+      "endFrameUrl": null
+    },
+    "diagnosis": {
+      "targetVisible": true,
+      "targetPosition": "center",
+      "taskStage": "completed",
+      "suspectedFailureStage": null,
+      "observations": [
+        "模拟诊断：目标操作在结束画面中已完成。"
+      ],
+      "needsHumanReview": false
+    },
+    "humanReview": {
+      "reviewed": false,
+      "failureCategory": null,
+      "comment": null
+    },
+    "createdAt": "2026-11-24T10:27:00Z"
+  },
+  {
+    "schemaVersion": "1.0",
+    "runId": "task-b-normal-seed-0008",
+    "dataSource": "mock",
+    "task": {
+      "id": "task-b",
+      "name": "操作场景中的目标部件",
+      "suite": "libero_spatial",
+      "taskIndex": 0,
+      "instruction": "Interact with the specified part of the scene."
+    },
+    "condition": {
+      "type": "normal",
+      "perturbation": null
+    },
+    "seed": 8,
+    "models": {
+      "policy": "mock-policy-v1",
+      "diagnoser": "mock-vlm-v1"
+    },
+    "result": {
+      "status": "failed",
+      "success": false,
+      "terminationReason": "max_steps_reached",
+      "executedSteps": 500,
+      "maxSteps": 500,
+      "durationSeconds": 72.3,
+      "averageInferenceMs": null
+    },
+    "artifacts": {
+      "videoUrl": null,
+      "startFrameUrl": null,
+      "middleFrameUrl": null,
+      "endFrameUrl": null
+    },
+    "diagnosis": {
+      "targetVisible": true,
+      "targetPosition": "center-left",
+      "taskStage": "transport",
+      "suspectedFailureStage": "transport",
+      "observations": [
+        "模拟复核：动作出现重复或轨迹振荡。"
+      ],
+      "needsHumanReview": true
+    },
+    "humanReview": {
+      "reviewed": true,
+      "failureCategory": "control",
+      "comment": "模拟复核：动作出现重复或轨迹振荡。"
+    },
+    "createdAt": "2026-11-24T10:28:00Z"
+  },
+  {
+    "schemaVersion": "1.0",
+    "runId": "task-b-normal-seed-0009",
+    "dataSource": "mock",
+    "task": {
+      "id": "task-b",
+      "name": "操作场景中的目标部件",
+      "suite": "libero_spatial",
+      "taskIndex": 0,
+      "instruction": "Interact with the specified part of the scene."
+    },
+    "condition": {
+      "type": "normal",
+      "perturbation": null
+    },
+    "seed": 9,
+    "models": {
+      "policy": "mock-policy-v1",
+      "diagnoser": "mock-vlm-v1"
+    },
+    "result": {
+      "status": "failed",
+      "success": false,
+      "terminationReason": "max_steps_reached",
+      "executedSteps": 500,
+      "maxSteps": 500,
+      "durationSeconds": 72.7,
+      "averageInferenceMs": null
+    },
+    "artifacts": {
+      "videoUrl": null,
+      "startFrameUrl": null,
+      "middleFrameUrl": null,
+      "endFrameUrl": null
+    },
+    "diagnosis": {
+      "targetVisible": true,
+      "targetPosition": "center-left",
+      "taskStage": "unknown",
+      "suspectedFailureStage": "termination",
+      "observations": [
+        "模拟复核：画面接近完成，但环境未返回成功。"
+      ],
+      "needsHumanReview": true
+    },
+    "humanReview": {
+      "reviewed": true,
+      "failureCategory": "termination",
+      "comment": "模拟复核：画面接近完成，但环境未返回成功。"
+    },
+    "createdAt": "2026-11-24T10:29:00Z"
+  },
+  {
+    "schemaVersion": "1.0",
+    "runId": "task-b-disturbed-seed-0000",
+    "dataSource": "mock",
+    "task": {
+      "id": "task-b",
+      "name": "操作场景中的目标部件",
+      "suite": "libero_spatial",
+      "taskIndex": 0,
+      "instruction": "Interact with the specified part of the scene."
+    },
+    "condition": {
+      "type": "disturbed",
+      "perturbation": {
+        "type": "brightness",
+        "factor": 0.7
+      }
+    },
+    "seed": 0,
+    "models": {
+      "policy": "mock-policy-v1",
+      "diagnoser": "mock-vlm-v1"
+    },
+    "result": {
+      "status": "success",
+      "success": true,
+      "terminationReason": "environment_success",
+      "executedSteps": 280,
+      "maxSteps": 500,
+      "durationSeconds": 43.4,
+      "averageInferenceMs": null
+    },
+    "artifacts": {
+      "videoUrl": null,
+      "startFrameUrl": null,
+      "middleFrameUrl": null,
+      "endFrameUrl": null
+    },
+    "diagnosis": {
+      "targetVisible": true,
+      "targetPosition": "center",
+      "taskStage": "completed",
+      "suspectedFailureStage": null,
+      "observations": [
+        "模拟诊断：目标操作在结束画面中已完成。"
+      ],
+      "needsHumanReview": false
+    },
+    "humanReview": {
+      "reviewed": false,
+      "failureCategory": null,
+      "comment": null
+    },
+    "createdAt": "2026-11-24T10:30:00Z"
+  },
+  {
+    "schemaVersion": "1.0",
+    "runId": "task-b-disturbed-seed-0001",
+    "dataSource": "mock",
+    "task": {
+      "id": "task-b",
+      "name": "操作场景中的目标部件",
+      "suite": "libero_spatial",
+      "taskIndex": 0,
+      "instruction": "Interact with the specified part of the scene."
+    },
+    "condition": {
+      "type": "disturbed",
+      "perturbation": {
+        "type": "brightness",
+        "factor": 0.7
+      }
+    },
+    "seed": 1,
+    "models": {
+      "policy": "mock-policy-v1",
+      "diagnoser": "mock-vlm-v1"
+    },
+    "result": {
+      "status": "success",
+      "success": true,
+      "terminationReason": "environment_success",
+      "executedSteps": 297,
+      "maxSteps": 500,
+      "durationSeconds": 46.1,
+      "averageInferenceMs": null
+    },
+    "artifacts": {
+      "videoUrl": null,
+      "startFrameUrl": null,
+      "middleFrameUrl": null,
+      "endFrameUrl": null
+    },
+    "diagnosis": {
+      "targetVisible": true,
+      "targetPosition": "center",
+      "taskStage": "completed",
+      "suspectedFailureStage": null,
+      "observations": [
+        "模拟诊断：目标操作在结束画面中已完成。"
+      ],
+      "needsHumanReview": false
+    },
+    "humanReview": {
+      "reviewed": false,
+      "failureCategory": null,
+      "comment": null
+    },
+    "createdAt": "2026-11-24T10:31:00Z"
+  },
+  {
+    "schemaVersion": "1.0",
+    "runId": "task-b-disturbed-seed-0002",
+    "dataSource": "mock",
+    "task": {
+      "id": "task-b",
+      "name": "操作场景中的目标部件",
+      "suite": "libero_spatial",
+      "taskIndex": 0,
+      "instruction": "Interact with the specified part of the scene."
+    },
+    "condition": {
+      "type": "disturbed",
+      "perturbation": {
+        "type": "brightness",
+        "factor": 0.7
+      }
+    },
+    "seed": 2,
+    "models": {
+      "policy": "mock-policy-v1",
+      "diagnoser": "mock-vlm-v1"
+    },
+    "result": {
+      "status": "success",
+      "success": true,
+      "terminationReason": "environment_success",
+      "executedSteps": 314,
+      "maxSteps": 500,
+      "durationSeconds": 47.19,
+      "averageInferenceMs": null
+    },
+    "artifacts": {
+      "videoUrl": null,
+      "startFrameUrl": null,
+      "middleFrameUrl": null,
+      "endFrameUrl": null
+    },
+    "diagnosis": {
+      "targetVisible": true,
+      "targetPosition": "center",
+      "taskStage": "completed",
+      "suspectedFailureStage": null,
+      "observations": [
+        "模拟诊断：目标操作在结束画面中已完成。"
+      ],
+      "needsHumanReview": false
+    },
+    "humanReview": {
+      "reviewed": false,
+      "failureCategory": null,
+      "comment": null
+    },
+    "createdAt": "2026-11-24T10:32:00Z"
+  },
+  {
+    "schemaVersion": "1.0",
+    "runId": "task-b-disturbed-seed-0003",
+    "dataSource": "mock",
+    "task": {
+      "id": "task-b",
+      "name": "操作场景中的目标部件",
+      "suite": "libero_spatial",
+      "taskIndex": 0,
+      "instruction": "Interact with the specified part of the scene."
+    },
+    "condition": {
+      "type": "disturbed",
+      "perturbation": {
+        "type": "brightness",
+        "factor": 0.7
+      }
+    },
+    "seed": 3,
+    "models": {
+      "policy": "mock-policy-v1",
+      "diagnoser": "mock-vlm-v1"
+    },
+    "result": {
+      "status": "success",
+      "success": true,
+      "terminationReason": "environment_success",
+      "executedSteps": 331,
+      "maxSteps": 500,
+      "durationSeconds": 49.88,
+      "averageInferenceMs": null
+    },
+    "artifacts": {
+      "videoUrl": null,
+      "startFrameUrl": null,
+      "middleFrameUrl": null,
+      "endFrameUrl": null
+    },
+    "diagnosis": {
+      "targetVisible": true,
+      "targetPosition": "center",
+      "taskStage": "completed",
+      "suspectedFailureStage": null,
+      "observations": [
+        "模拟诊断：目标操作在结束画面中已完成。"
+      ],
+      "needsHumanReview": false
+    },
+    "humanReview": {
+      "reviewed": false,
+      "failureCategory": null,
+      "comment": null
+    },
+    "createdAt": "2026-11-24T10:33:00Z"
+  },
+  {
+    "schemaVersion": "1.0",
+    "runId": "task-b-disturbed-seed-0004",
+    "dataSource": "mock",
+    "task": {
+      "id": "task-b",
+      "name": "操作场景中的目标部件",
+      "suite": "libero_spatial",
+      "taskIndex": 0,
+      "instruction": "Interact with the specified part of the scene."
+    },
+    "condition": {
+      "type": "disturbed",
+      "perturbation": {
+        "type": "brightness",
+        "factor": 0.7
+      }
+    },
+    "seed": 4,
+    "models": {
+      "policy": "mock-policy-v1",
+      "diagnoser": "mock-vlm-v1"
+    },
+    "result": {
+      "status": "success",
+      "success": true,
+      "terminationReason": "environment_success",
+      "executedSteps": 348,
+      "maxSteps": 500,
+      "durationSeconds": 52.58,
+      "averageInferenceMs": null
+    },
+    "artifacts": {
+      "videoUrl": null,
+      "startFrameUrl": null,
+      "middleFrameUrl": null,
+      "endFrameUrl": null
+    },
+    "diagnosis": {
+      "targetVisible": true,
+      "targetPosition": "center",
+      "taskStage": "completed",
+      "suspectedFailureStage": null,
+      "observations": [
+        "模拟诊断：目标操作在结束画面中已完成。"
+      ],
+      "needsHumanReview": false
+    },
+    "humanReview": {
+      "reviewed": false,
+      "failureCategory": null,
+      "comment": null
+    },
+    "createdAt": "2026-11-24T10:34:00Z"
+  },
+  {
+    "schemaVersion": "1.0",
+    "runId": "task-b-disturbed-seed-0005",
+    "dataSource": "mock",
+    "task": {
+      "id": "task-b",
+      "name": "操作场景中的目标部件",
+      "suite": "libero_spatial",
+      "taskIndex": 0,
+      "instruction": "Interact with the specified part of the scene."
+    },
+    "condition": {
+      "type": "disturbed",
+      "perturbation": {
+        "type": "brightness",
+        "factor": 0.7
+      }
+    },
+    "seed": 5,
+    "models": {
+      "policy": "mock-policy-v1",
+      "diagnoser": "mock-vlm-v1"
+    },
+    "result": {
+      "status": "failed",
+      "success": false,
+      "terminationReason": "max_steps_reached",
+      "executedSteps": 500,
+      "maxSteps": 500,
+      "durationSeconds": 73.5,
+      "averageInferenceMs": null
+    },
+    "artifacts": {
+      "videoUrl": null,
+      "startFrameUrl": null,
+      "middleFrameUrl": null,
+      "endFrameUrl": null
+    },
+    "diagnosis": {
+      "targetVisible": true,
+      "targetPosition": "center-left",
+      "taskStage": "approach",
+      "suspectedFailureStage": "approach",
+      "observations": [
+        "模拟复核：末端执行器与目标位置存在偏差。"
+      ],
+      "needsHumanReview": true
+    },
+    "humanReview": {
+      "reviewed": true,
+      "failureCategory": "localization",
+      "comment": "模拟复核：末端执行器与目标位置存在偏差。"
+    },
+    "createdAt": "2026-11-24T10:35:00Z"
+  },
+  {
+    "schemaVersion": "1.0",
+    "runId": "task-b-disturbed-seed-0006",
+    "dataSource": "mock",
+    "task": {
+      "id": "task-b",
+      "name": "操作场景中的目标部件",
+      "suite": "libero_spatial",
+      "taskIndex": 0,
+      "instruction": "Interact with the specified part of the scene."
+    },
+    "condition": {
+      "type": "disturbed",
+      "perturbation": {
+        "type": "brightness",
+        "factor": 0.7
+      }
+    },
+    "seed": 6,
+    "models": {
+      "policy": "mock-policy-v1",
+      "diagnoser": "mock-vlm-v1"
+    },
+    "result": {
+      "status": "failed",
+      "success": false,
+      "terminationReason": "max_steps_reached",
+      "executedSteps": 500,
+      "maxSteps": 500,
+      "durationSeconds": 72.3,
+      "averageInferenceMs": null
+    },
+    "artifacts": {
+      "videoUrl": null,
+      "startFrameUrl": null,
+      "middleFrameUrl": null,
+      "endFrameUrl": null
+    },
+    "diagnosis": {
+      "targetVisible": true,
+      "targetPosition": "center-left",
+      "taskStage": "grasp",
+      "suspectedFailureStage": "grasp",
+      "observations": [
+        "模拟复核：夹爪到达目标附近但未稳定抓取。"
+      ],
+      "needsHumanReview": true
+    },
+    "humanReview": {
+      "reviewed": true,
+      "failureCategory": "grasp",
+      "comment": "模拟复核：夹爪到达目标附近但未稳定抓取。"
+    },
+    "createdAt": "2026-11-24T10:36:00Z"
+  },
+  {
+    "schemaVersion": "1.0",
+    "runId": "task-b-disturbed-seed-0007",
+    "dataSource": "mock",
+    "task": {
+      "id": "task-b",
+      "name": "操作场景中的目标部件",
+      "suite": "libero_spatial",
+      "taskIndex": 0,
+      "instruction": "Interact with the specified part of the scene."
+    },
+    "condition": {
+      "type": "disturbed",
+      "perturbation": {
+        "type": "brightness",
+        "factor": 0.7
+      }
+    },
+    "seed": 7,
+    "models": {
+      "policy": "mock-policy-v1",
+      "diagnoser": "mock-vlm-v1"
+    },
+    "result": {
+      "status": "failed",
+      "success": false,
+      "terminationReason": "max_steps_reached",
+      "executedSteps": 500,
+      "maxSteps": 500,
+      "durationSeconds": 72.7,
+      "averageInferenceMs": null
+    },
+    "artifacts": {
+      "videoUrl": null,
+      "startFrameUrl": null,
+      "middleFrameUrl": null,
+      "endFrameUrl": null
+    },
+    "diagnosis": {
+      "targetVisible": true,
+      "targetPosition": "center-left",
+      "taskStage": "placement",
+      "suspectedFailureStage": "placement",
+      "observations": [
+        "模拟复核：物体未被放入目标区域。"
+      ],
+      "needsHumanReview": true
+    },
+    "humanReview": {
+      "reviewed": true,
+      "failureCategory": "placement",
+      "comment": "模拟复核：物体未被放入目标区域。"
+    },
+    "createdAt": "2026-11-24T10:37:00Z"
+  },
+  {
+    "schemaVersion": "1.0",
+    "runId": "task-b-disturbed-seed-0008",
+    "dataSource": "mock",
+    "task": {
+      "id": "task-b",
+      "name": "操作场景中的目标部件",
+      "suite": "libero_spatial",
+      "taskIndex": 0,
+      "instruction": "Interact with the specified part of the scene."
+    },
+    "condition": {
+      "type": "disturbed",
+      "perturbation": {
+        "type": "brightness",
+        "factor": 0.7
+      }
+    },
+    "seed": 8,
+    "models": {
+      "policy": "mock-policy-v1",
+      "diagnoser": "mock-vlm-v1"
+    },
+    "result": {
+      "status": "failed",
+      "success": false,
+      "terminationReason": "max_steps_reached",
+      "executedSteps": 500,
+      "maxSteps": 500,
+      "durationSeconds": 73.1,
+      "averageInferenceMs": null
+    },
+    "artifacts": {
+      "videoUrl": null,
+      "startFrameUrl": null,
+      "middleFrameUrl": null,
+      "endFrameUrl": null
+    },
+    "diagnosis": {
+      "targetVisible": true,
+      "targetPosition": "center-left",
+      "taskStage": "transport",
+      "suspectedFailureStage": "transport",
+      "observations": [
+        "模拟复核：动作出现重复或轨迹振荡。"
+      ],
+      "needsHumanReview": true
+    },
+    "humanReview": {
+      "reviewed": true,
+      "failureCategory": "control",
+      "comment": "模拟复核：动作出现重复或轨迹振荡。"
+    },
+    "createdAt": "2026-11-24T10:38:00Z"
+  },
+  {
+    "schemaVersion": "1.0",
+    "runId": "task-b-disturbed-seed-0009",
+    "dataSource": "mock",
+    "task": {
+      "id": "task-b",
+      "name": "操作场景中的目标部件",
+      "suite": "libero_spatial",
+      "taskIndex": 0,
+      "instruction": "Interact with the specified part of the scene."
+    },
+    "condition": {
+      "type": "disturbed",
+      "perturbation": {
+        "type": "brightness",
+        "factor": 0.7
+      }
+    },
+    "seed": 9,
+    "models": {
+      "policy": "mock-policy-v1",
+      "diagnoser": "mock-vlm-v1"
+    },
+    "result": {
+      "status": "error",
+      "success": false,
+      "terminationReason": "mock_runtime_error",
+      "executedSteps": 64,
+      "maxSteps": 500,
+      "durationSeconds": 14.64,
+      "averageInferenceMs": null
+    },
+    "artifacts": {
+      "videoUrl": null,
+      "startFrameUrl": null,
+      "middleFrameUrl": null,
+      "endFrameUrl": null
+    },
+    "diagnosis": null,
+    "humanReview": {
+      "reviewed": true,
+      "failureCategory": "system_error",
+      "comment": "模拟复核：运行过程发生系统异常。"
+    },
+    "createdAt": "2026-11-24T10:39:00Z"
+  }
+]

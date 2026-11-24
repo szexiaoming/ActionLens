@@ -1,0 +1,42 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://actionlens.local/schemas/diagnosis.schema.json",
+  "title": "ActionLens Diagnosis",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "targetVisible",
+    "targetPosition",
+    "taskStage",
+    "suspectedFailureStage",
+    "observations",
+    "needsHumanReview"
+  ],
+  "properties": {
+    "targetVisible": {
+      "type": ["boolean", "null"]
+    },
+    "targetPosition": {
+      "type": ["string", "null"],
+      "enum": ["left", "center-left", "center", "center-right", "right", "unknown", null]
+    },
+    "taskStage": {
+      "type": "string",
+      "enum": ["initial", "approach", "grasp", "transport", "placement", "completed", "unknown"]
+    },
+    "suspectedFailureStage": {
+      "type": ["string", "null"],
+      "enum": ["recognition", "approach", "grasp", "transport", "placement", "termination", "unknown", null]
+    },
+    "observations": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "needsHumanReview": {
+      "type": "boolean"
+    }
+  }
+}

@@ -1,0 +1,146 @@
+{
+  "schemaVersion": "1.0",
+  "dataSource": "mock",
+  "generatedAt": "2026-11-24T10:39:00Z",
+  "totalRuns": 40,
+  "statusCounts": {
+    "success": 24,
+    "failed": 13,
+    "error": 2,
+    "interrupted": 1
+  },
+  "success": {
+    "count": 24,
+    "total": 40,
+    "rate": 0.6
+  },
+  "metrics": {
+    "averageDurationSeconds": 51.86,
+    "averageSuccessfulSteps": 288.96
+  },
+  "byTask": [
+    {
+      "key": "task-a",
+      "totalRuns": 20,
+      "successCount": 11,
+      "successRate": 0.55,
+      "statusCounts": {
+        "error": 1,
+        "failed": 7,
+        "interrupted": 1,
+        "success": 11
+      },
+      "name": "抓取并放置目标物体"
+    },
+    {
+      "key": "task-b",
+      "totalRuns": 20,
+      "successCount": 13,
+      "successRate": 0.65,
+      "statusCounts": {
+        "error": 1,
+        "failed": 6,
+        "success": 13
+      },
+      "name": "操作场景中的目标部件"
+    }
+  ],
+  "byCondition": [
+    {
+      "key": "normal",
+      "totalRuns": 20,
+      "successCount": 15,
+      "successRate": 0.75,
+      "statusCounts": {
+        "error": 1,
+        "failed": 4,
+        "success": 15
+      }
+    },
+    {
+      "key": "disturbed",
+      "totalRuns": 20,
+      "successCount": 9,
+      "successRate": 0.45,
+      "statusCounts": {
+        "error": 1,
+        "failed": 9,
+        "interrupted": 1,
+        "success": 9
+      }
+    }
+  ],
+  "byTaskAndCondition": [
+    {
+      "key": [
+        "task-a",
+        "normal"
+      ],
+      "totalRuns": 10,
+      "successCount": 7,
+      "successRate": 0.7,
+      "statusCounts": {
+        "error": 1,
+        "failed": 2,
+        "success": 7
+      }
+    },
+    {
+      "key": [
+        "task-a",
+        "disturbed"
+      ],
+      "totalRuns": 10,
+      "successCount": 4,
+      "successRate": 0.4,
+      "statusCounts": {
+        "failed": 5,
+        "interrupted": 1,
+        "success": 4
+      }
+    },
+    {
+      "key": [
+        "task-b",
+        "normal"
+      ],
+      "totalRuns": 10,
+      "successCount": 8,
+      "successRate": 0.8,
+      "statusCounts": {
+        "failed": 2,
+        "success": 8
+      }
+    },
+    {
+      "key": [
+        "task-b",
+        "disturbed"
+      ],
+      "totalRuns": 10,
+      "successCount": 5,
+      "successRate": 0.5,
+      "statusCounts": {
+        "error": 1,
+        "failed": 4,
+        "success": 5
+      }
+    }
+  ],
+  "failureCategories": {
+    "control": 2,
+    "grasp": 3,
+    "localization": 2,
+    "perturbation": 1,
+    "placement": 3,
+    "system_error": 2,
+    "target_recognition": 1,
+    "termination": 1,
+    "unknown": 1
+  },
+  "dataQuality": {
+    "withDiagnosis": 37,
+    "needsHumanReview": 13,
+    "missingVideo": 40
+  }
+}

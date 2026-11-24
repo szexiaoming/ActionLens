@@ -1,0 +1,43 @@
+{
+  "schemaVersion": "1.0",
+  "runId": "task-a-normal-seed-0000",
+  "dataSource": "real",
+  "task": {
+    "id": "task-a",
+    "name": "抓取并放置目标物体",
+    "suite": "libero_object",
+    "taskIndex": 0,
+    "instruction": "Pick up the target object and place it in the container."
+  },
+  "condition": {
+    "type": "normal",
+    "perturbation": null
+  },
+  "seed": 0,
+  "models": {
+    "policy": "lerobot/smolvla_libero@revision",
+    "diagnoser": null
+  },
+  "result": {
+    "status": "success",
+    "success": true,
+    "terminationReason": "environment_success",
+    "executedSteps": 286,
+    "maxSteps": 500,
+    "durationSeconds": 46.2,
+    "averageInferenceMs": 118.4
+  },
+  "artifacts": {
+    "videoUrl": "episode.mp4",
+    "startFrameUrl": "frames/start.png",
+    "middleFrameUrl": "frames/middle.png",
+    "endFrameUrl": "frames/end.png"
+  },
+  "diagnosis": null,
+  "humanReview": {
+    "reviewed": false,
+    "failureCategory": null,
+    "comment": null
+  },
+  "createdAt": "2026-11-24T10:00:00Z"
+}

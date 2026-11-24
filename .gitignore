@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.venv/
+venv/
+
+# Node and Vite
+web/node_modules/
+web/dist/
+web/coverage/
+*.tsbuildinfo
+
+# Generated evaluation data
+incoming/
+data/real/*
+!data/real/.gitkeep
+!data/real/runs.json
+!data/real/summary.json
+results/
+
+# Imported media can be large
+web/public/media/*
+!web/public/media/.gitkeep
+
+# Models and media
+*.pt
+*.pth
+*.safetensors
+*.mp4
+*.webm
+
+# Local configuration
+.env
+.env.*
+!.env.example
+
+# Editors and operating systems
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db

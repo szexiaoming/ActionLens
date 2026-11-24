@@ -1,0 +1,19 @@
+{
+  "schemaVersion": "1.0",
+  "episodesPerCondition": 10,
+  "seeds": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9],
+  "maxSteps": 500,
+  "conditions": [
+    {
+      "type": "normal",
+      "perturbation": null
+    },
+    {
+      "type": "disturbed",
+      "perturbation": {
+        "type": "brightness",
+        "factor": 0.7
+      }
+    }
+  ]
+}

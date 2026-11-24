@@ -1,0 +1,21 @@
+{
+  "schemaVersion": "1.0",
+  "tasks": [
+    {
+      "id": "task-a",
+      "name": "抓取并放置目标物体",
+      "suite": "libero_object",
+      "taskIndex": 0,
+      "instruction": "Pick up the target object and place it in the container.",
+      "status": "candidate"
+    },
+    {
+      "id": "task-b",
+      "name": "操作场景中的目标部件",
+      "suite": "libero_spatial",
+      "taskIndex": 0,
+      "instruction": "Interact with the specified part of the scene.",
+      "status": "candidate"
+    }
+  ]
+}

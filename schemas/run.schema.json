@@ -1,0 +1,144 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://actionlens.local/schemas/run.schema.json",
+  "title": "ActionLens Run Record",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schemaVersion",
+    "runId",
+    "dataSource",
+    "task",
+    "condition",
+    "seed",
+    "models",
+    "result",
+    "artifacts",
+    "diagnosis",
+    "humanReview",
+    "createdAt"
+  ],
+  "properties": {
+    "schemaVersion": {
+      "const": "1.0"
+    },
+    "runId": {
+      "type": "string",
+      "minLength": 1,
+      "pattern": "^[A-Za-z0-9][A-Za-z0-9._-]*$"
+    },
+    "dataSource": {
+      "type": "string",
+      "enum": ["mock", "real"]
+    },
+    "task": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "name", "suite", "taskIndex", "instruction"],
+      "properties": {
+        "id": { "type": "string", "minLength": 1 },
+        "name": { "type": "string", "minLength": 1 },
+        "suite": { "type": "string", "minLength": 1 },
+        "taskIndex": { "type": "integer", "minimum": 0 },
+        "instruction": { "type": "string", "minLength": 1 }
+      }
+    },
+    "condition": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["type", "perturbation"],
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": ["normal", "disturbed"]
+        },
+        "perturbation": {
+          "type": ["object", "null"]
+        }
+      }
+    },
+    "seed": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "models": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["policy", "diagnoser"],
+      "properties": {
+        "policy": { "type": "string", "minLength": 1 },
+        "diagnoser": { "type": ["string", "null"] }
+      }
+    },
+    "result": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "status",
+        "success",
+        "terminationReason",
+        "executedSteps",
+        "maxSteps",
+        "durationSeconds",
+        "averageInferenceMs"
+      ],
+      "properties": {
+        "status": {
+          "type": "string",
+          "enum": ["success", "failed", "error", "interrupted"]
+        },
+        "success": { "type": "boolean" },
+        "terminationReason": { "type": "string", "minLength": 1 },
+        "executedSteps": { "type": "integer", "minimum": 0 },
+        "maxSteps": { "type": "integer", "minimum": 1 },
+        "durationSeconds": { "type": "number", "minimum": 0 },
+        "averageInferenceMs": { "type": ["number", "null"], "minimum": 0 }
+      }
+    },
+    "artifacts": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["videoUrl", "startFrameUrl", "middleFrameUrl", "endFrameUrl"],
+      "properties": {
+        "videoUrl": { "type": ["string", "null"] },
+        "startFrameUrl": { "type": ["string", "null"] },
+        "middleFrameUrl": { "type": ["string", "null"] },
+        "endFrameUrl": { "type": ["string", "null"] }
+      }
+    },
+    "diagnosis": {
+      "anyOf": [
+        { "$ref": "diagnosis.schema.json" },
+        { "type": "null" }
+      ]
+    },
+    "humanReview": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["reviewed", "failureCategory", "comment"],
+      "properties": {
+        "reviewed": { "type": "boolean" },
+        "failureCategory": {
+          "type": ["string", "null"],
+          "enum": [
+            "target_recognition",
+            "localization",
+            "grasp",
+            "placement",
+            "control",
+            "termination",
+            "perturbation",
+            "system_error",
+            "unknown",
+            null
+          ]
+        },
+        "comment": { "type": ["string", "null"] }
+      }
+    },
+    "createdAt": {
+      "type": "string",
+      "format": "date-time"
+    }
+  }
+}
